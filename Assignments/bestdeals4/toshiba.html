@@ -1,0 +1,148 @@
+<html>
+<head>
+<script type="text/javascript" src="javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<title>Toshiba TV</title>
+</head>
+<body class = "tv" onload="init()">
+
+<header>
+
+<h1><font face = "Cambria">BEST DEALS</font></h1>
+<h2>The Best Online Retail Store You Can Get</h2>
+</header>
+
+<nav>
+<ul>
+  <li><a href="Home.html" class="home"><font face = "Cambria">HOME</font></a></li>
+  <li><a href="Phone.html" class="phone"><font face = "Cambria">SMART PHONES</font></a></li>
+  <li><a href="Tablet.html" class="tablet"><font face = "Cambria">TABLETS</font></a></li>
+  <li> <a href="Laptop.html" class="laptop"><font face = "Cambria" >LAPTOPS</font></a></li>
+  <li> <a href="Tv.html" class="tv"><font face = "Cambria" >TV</font></a></li>
+  <li> <a href="DealMatchesUtilities"><font face = "Cambria" >DEALS</font></a></li>
+  </ul>
+  <a href="CustomerLogoutServlet">SIGN OUT</a>
+  <a href="ViewOrderServlet">CART</a>
+   <form name="autofillform" action="autocomplete">
+			<table border="0">
+				<tbody>
+					<tr>
+
+						<td><input type="search" id="complete-field" autocomplete="off"
+							onkeyup="doCompletion()" placeholder="Search here..." style="padding: 5px; font-size: 16px;"></td>
+					</tr>
+					<tr>
+						<td id="auto-row">
+							<table id="complete-table" class="gridtable" style="position: absolute; width:315px;"></table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+</nav>
+
+<div id="container"> 
+
+<section id="description">
+
+
+<img class = "img-disp" alt="tv" src="Images/tv.jpg" height="60%" width="100%">
+<form action="AddViewServlet" method="post">
+<table class="table-1" align="center">
+<tr>
+<th rowspan="3"><img src="Images/Toshiba LED 1080p HDTV.jpg" height="50%" width="50%"></th>
+<td><input type="submit" name="addtocart" value="Add to Cart"></td>
+</tr>
+<tr>
+<td><a href="Writerev.html">Write Review</a></td>
+</tr>
+<tr>
+<td><input type="submit" name="viewreview" value="View Review"></td>
+</tr>
+<tr>
+<td><textarea name="prname" readonly="readonly" rows="1" cols="6">Toshiba LED 1080p HDTV</textarea></td>
+<td>$<textarea name="prprice" readonly="readonly" rows="1" cols="3">2899</textarea></td>
+</tr>
+</table>
+</form>
+</section>
+ 
+
+<aside class="vnav">
+<ul> 
+  <li>
+  <h3>Categories</h3>
+  <h4>Smart Phones</h4>
+                    <ul>
+                        <li class="start"><a href="iphonemob.html">IPhone 7</a></li>
+						<li><a href="samsungmob.html">Samsung Galaxy Note 5</a></li>
+						<li><a href="nexusmob.html">Nexus 7</a></li>
+						<li class="end"><a href="xperia.html">Sony Xperia</a></li>
+                    </ul>
+              
+  
+  <li>
+  <h4>Tablets</h4>
+                      <ul>
+                        <li class="start"><a href="ipadtab.html">iPad Pro</a></li>
+						<li><a href="samsungtab.html">Samsung Galaxy Tab 4</a></li>
+						<li><a href="nexustab.html">Nexus Tab 9</a></li>
+						<li class="end"><a href="lenovotab.html">Lenovo Tab 2</a></li>
+                    </ul>
+              
+  </li>
+  
+  <li>
+  <h4>Laptops</h4>
+                      <ul>
+                        <li class="start"><a href="iphonelap.html">MacBook Air</a></li>
+						<li><a href="lenonolap.html">Lenovo Laptop</a></li>
+						<li><a href="delllap.html">Dell Inspiron i7</a></li>
+						<li class="end"><a href="asuslap.html">Asus Laptop</a></li>
+                    </ul>
+                
+  
+  </li>
+  
+  <li>
+  <h4>TVs</h4>
+                      <ul>
+                        <li class="start"><a href="lgtv.html">LG 4K Ultra HD Smart LED TV</a></li>
+						<li><a href="samsungtv.html">Samsung Curved 4K Ultra HD Smart LED TV</a></li>
+						<li><a href="toshiba.html">Toshiba LED 1080p HDTV</a></li>
+						<li class="end"><a href="sonytv.html">Sony 4K Ultra HD Smart LED TV</a></li>
+                    </ul>
+                
+  
+  </li>
+  
+  
+  <li>
+  <h3>Accessories</h3>
+  <ul>
+  <li><a href="headphone.html">LG headphones</a></li> 
+  <li><a href="charger.html">Tablet Charger</a></li> 
+  <li><a href="bluray.html">Blu-ray Player</a></li> 
+  </ul>
+  </li>
+  
+  <li>
+  <h3>Trending</h3>
+  <ul>
+  <li><a href="OrderAnalysis1">Trending</a></li> 
+   </ul>
+  </li>
+  
+</ul>   
+</aside>
+
+<div class="clear"></div>
+</div>
+
+
+<footer>
+Copyright © www.bestdeals.co.in
+</footer>
+
+</body>
+</html>

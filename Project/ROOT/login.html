@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Scarlet Hotels</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $.get('/Project/Header', function(data) {
+                $("#header").html(data);
+            });
+            $.get('/Project/Login', function(data) {
+                $("#main").html(data);
+            });
+            $.get('/Project/Footer', function(data) {
+                $("#footer").html(data);
+            });
+        </script>
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

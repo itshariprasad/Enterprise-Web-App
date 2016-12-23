@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <console id="001" retailer="BestDeals">
+        <image>iphonemob.jpg</image>
+        <name>IPhone 7</name>
+        <condition>New</condition>
+        <price>800</price>
+       
+    </console>
+    <console id="002" retailer="BestDeals">
+        <image>samsungmob.jpg</image>
+        <name>Samsung S7 Edge</name>
+        <condition >New</condition>
+        <price>700</price>
+       
+    </console>
+    <console id="003" retailer="BestDeals">
+        <image>nexusmob.jpg</image>
+        <name>Nexus 7</name>
+        <condition >New</condition>
+        <price>500</price>
+       
+        </console>
+		 <console id="004" retailer="BestDeals">
+        <image>onemob.jpg</image>
+        <name>One plus 2</name>
+        <condition>New</condition>
+        <price>400</price>
+       
+    </console>
+    <console id="005" retailer="BestDeals">
+        <image>ipadtab.jpg</image>
+        <name>IPad Air 2</name>
+        <condition >New</condition>
+        <price>550</price>
+       
+        </console>
+		 <console id="006" retailer="BestDeals">
+        <image>samsungtab.jpg</image>
+        <name>Samsung Tab 4</name>
+        <condition>New</condition>
+        <price>400</price>
+       
+    </console>
+    <console id="007" retailer="BestDeals">
+        <image>nexustab.jpg</image>
+        <name>Nexus Tab 9</name>
+        <condition >New</condition>
+        <price>499</price>
+       
+        </console>
+		 <console id="008" retailer="BestDeals">
+        <image>lenovotab.jpg</image>
+        <name>Lenovo Tab 2</name>
+        <condition>New</condition>
+        <price>399</price>
+       
+    </console>
+    <console id="009" retailer="BestDeals">
+        <image>lgtv.jpg</image>
+        <name>LG TV</name>
+        <condition >New</condition>
+        <price>2600</price>
+       
+        </console>
+		 <console id="010" retailer="BestDeals">
+        <image>samsungtv.jpg</image>
+        <name>Samsung TV</name>
+        <condition>New</condition>
+        <price>3650</price>
+       
+    </console>
+    <console id="011" retailer="BestDeals">
+        <image>tcltv.jpg</image>
+        <name>TCL TV</name>
+        <condition >New</condition>
+        <price>1600</price>
+       
+        </console>
+		 <console id="012" retailer="BestDeals">
+        <image>sonytv.jpg</image>
+        <name>Sony TV</name>
+        <condition>New</condition>
+        <price>3000</price>
+       
+    </console>
+    <console id="013" retailer="BestDeals">
+        <image>iphonelap.jpg</image>
+        <name>Apple MacBook Pro</name>
+        <condition >New</condition>
+        <price>1549.99</price>
+       
+        </console>
+		 <console id="014" retailer="BestDeals">
+        <image>samsunglap.jpg</image>
+        <name>Samsung Chromebook 3</name>
+        <condition>Pre-Owned</condition>
+        <price>1399.99</price>
+       
+    </console>
+    <console id="015" retailer="BestDeals">
+        <image>delllap.jpg</image>
+        <name>Dell laptop</name>
+        <condition >New</condition>
+        <price>899</price>
+       
+        </console>
+		 <console id="013" retailer="BestDeals">
+        <image>asuslap.jpg</image>
+        <name>Asus ZenBook</name>
+        <condition >Pre-Owned</condition>
+        <price>799</price>
+       
+        </console>
+		
+</ProductCatalog>

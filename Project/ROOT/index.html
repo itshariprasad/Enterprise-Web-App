@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Scarlet Hotels</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $.get('/Project/Header', function(data) {
+                $("#header").html(data);
+            });
+            $.get('/Project/Footer', function(data) {
+                $("#footer").html(data);
+            });
+        </script>
+	</head>
+	<body class="landing">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Scarlet Hotels</h2>
+							<p>Luxury hotels<br />
+							located at breathtaking locales<br />
+							that take your breath away.</p>
+						</div>
+						<a href="#one" class="more scrolly">Check Availability</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Check availability at your preferred destination</h2>
+							</header>
+                            <form method="post" action="#">
+                                <div class="row uniform">
+                                    <div class="12u$">
+                                        <div class="select-wrapper">
+                                            <select name="demo-category" id="demo-category">
+                                                <option value="">- Select Destination -</option>
+                                                <option value="1">Chicago</option>
+                                                <option value="1">London</option>
+                                                <option value="1">Moscow</option>
+                                                <option value="1">Prague</option>
+                                                <option value="1">Sydney</option>
+                                                <option value="1">Zurich</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="12u$">
+                                        <div class="select-wrapper">
+                                            <select name="demo-category" id="demo-category">
+                                                <option value="">- Select A Hotel -</option>
+                                                <option value="1">Scarlet Chicago, Millenium Park</option>
+                                                <option value="1">Scarlet London, Main Street</option>
+                                                <option value="1">Scarlet Moscow</option>
+                                                <option value="1">Scarlet Prague</option>
+                                                <option value="1">Scarlet Sydney</option>
+                                                <option value="1">Scarlet Zurich</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="6u 12u$(xsmall)">
+                                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Arrival Date" />
+                                    </div>
+                                    <div class="6u$ 12u$(xsmall)">
+                                        <input type="text" name="demo-email" id="demo-email" value="" placeholder="Departure Date" />
+                                    </div>
+                                    
+                                </div>
+                            </form>
+                            <ul class="actions">
+                                <li><a href="#" class="button special">Check Availability</a></li>
+                            </ul>
+						</div>
+					</section>
+                
+                <!-- Footer -->
+					<!-- footer id="footer">
+						<ul class="copyright">
+							<li>Scarlet Hotels</li>
+						</ul>
+					</footer -->
+             
+				<!-- Three -->
+					<!-- section id="three" class="wrapper style2 special">
+						<div class="inner">
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>Leisure</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-leaf">
+									<h3>Spa</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-home">
+									<h3>Residence</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Events</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Stories</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Store</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+							</ul>
+						</div>
+					</section -->
+                    
+				<!-- About Scarlet -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Scarlet Hotels</h2>
+								<p>Now in over 200 destinations worldwide.<br>Learn more about our chain of luxury hotels.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Offerings</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

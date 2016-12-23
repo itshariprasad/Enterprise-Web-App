@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+	<Console id="01">
+		 <price>800</price>
+		<retailer>BestDeals</retailer>
+        <image>iphonemob.jpg</image>
+        <name>IPhone 7</name>
+		<condition>New</condition>
+		<type>Phone</type>
+		
+		
+	</Console>
+	<Console id="02">
+		<price>700</price>
+		<retailer>BestDeals</retailer>
+        <image>samsungmob.jpg</image>
+        <name>Samsung Galaxy Note5</name>
+		<condition>New</condition>
+		<type>Phone</type>
+		
+		
+	</Console>
+	<Console id="03">
+		 <price>500</price>
+		<retailer>BestDeals</retailer>
+        <image>nexusmob.jpg</image>
+        <name>Nexus 7</name>
+		<condition>New</condition>
+		<type>Phone</type>
+		
+		
+	</Console>
+	<Console id="04">
+		 <price>400</price>
+		<retailer>BestDeals</retailer>
+        <image>xperia.jpg</image>
+        <name>Sony Xperia</name>
+        <condition>New</condition>
+		<type>Phone</type>
+	
+		
+	</Console>
+	
+	<Console id="05">
+		 <price>550</price>
+		<retailer>BestDeals</retailer>
+        <image>ipadtab.jpg</image>
+        <name>iPad Pro</name>
+		<condition>New</condition>
+		<type>Tablet</type>
+		
+	</Console>
+	
+	<Console id="06">
+		 <price>400</price>
+		<retailer>BestDeals</retailer>
+        <image>samsungtab.jpg</image>
+        <name>Samsung Tab 4</name>
+        <condition>New</condition>
+		<type>Tablet</type>
+	
+	</Console>
+	
+	<Console id="07">
+		 <price>499</price>
+		<retailer>BestDeals</retailer>
+       <image>nexustab.jpg</image>
+        <name>Nexus Tab 9</name>
+        <condition >New</condition>
+		<type>Tablet</type>
+		
+	</Console>
+	
+	
+	<Console id="08">
+		 <price>399</price>
+		<retailer>BestDeals</retailer>
+        <image>lenovotab.jpg</image>
+        <name>Lenovo Tab 2</name>
+        <condition>New</condition>
+		<type>Tablet</type>
+		
+	</Console>
+	
+	<Console id="09">
+		 <price>2600</price>
+		<retailer>BestDeals</retailer>
+       <image>lgtv.jpg</image>
+        <name>LG TV</name>
+        <condition >New</condition>
+		<type>TV</type>
+	
+	</Console>
+	
+	<Console id="10">
+		 <price>3650</price>
+		<retailer>BestDeals</retailer>
+        <image>samsungtv.jpg</image>
+        <name>Samsung TV</name>
+        <condition>New</condition>
+		<type>TV</type>
+		
+		
+	</Console>
+	
+	<Console id="11">
+		 <price>1600</price>
+		<retailer>BestDeals</retailer>
+        <image>toshiba.jpg</image>
+        <name>Toshiba LED 1080p HDTV.</name>
+        <condition >New</condition>
+		<type>TV</type>
+		
+		
+	</Console>
+	
+	<Console id="12">
+		 <price>3000</price>
+		<retailer>BestDeals</retailer>
+        <image>sonytv.jpg</image>
+        <name>Sony TV</name>
+        <condition>New</condition>
+		<type>TV</type>
+		
+		
+	</Console>
+	
+	<Console id="13">
+		 <price>1549</price>
+		<retailer>BestDeals</retailer>
+       <image>iphonelap.jpg</image>
+        <name>MacBook Air</name>
+        <condition >New</condition>
+		<type>Laptop</type>
+		
+		
+	</Console>
+	
+	<Console id="14">
+		 <price>1399</price>
+		<retailer>BestDeals</retailer>
+        <image>lenovolap.jpg</image>
+        <name>Lenovo Laptop</name>
+        <condition>Pre-Owned</condition>
+		<type>Laptop</type>
+	
+	</Console>
+	
+	<Console id="15">
+		 <price>899</price>
+		<retailer>BestDeals</retailer>
+        <image>delllap.jpg</image>
+        <name>Dell Inspiron</name>
+        <condition >New</condition>
+		<type>Laptop</type>
+		
+	</Console>
+	<Console id="16">
+		 <price>799</price>
+		<retailer>BestDeals</retailer>
+         <image>asuslap.jpg</image>
+        <name>Asus Laptop</name>
+        <condition >Pre-Owned</condition>
+		<type>Laptop</type>
+		
+	</Console>
+	
+	<Console id="17">
+		 <price>100</price>
+		<retailer>BestDeals</retailer>
+         <image>headphone.jpg</image>
+        <name>LG headphones</name>
+        <condition>New</condition>
+		<type>Laptop</type>
+		
+	</Console>
+	
+	<Console id="18">
+		 <price>50</price>
+		<retailer>BestDeals</retailer>
+         <image>charger.jpg</image>
+        <name>Ligthening Fast Charger</name>
+        <condition >New</condition>
+		<type>Tablet</type>
+		
+	</Console>
+	
+	<Console id="19">
+		 <price>350</price>
+		<retailer>BestDeals</retailer>
+         <image>bluray.jpg</image>
+        <name>Blu-ray player</name>
+        <condition>New</condition>
+		<type>TV</type>
+		
+	</Console>
+	
+	
+	
+</ProductCatalog>

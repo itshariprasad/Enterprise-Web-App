@@ -1,0 +1,220 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<title>Write Review</title>
+</head>
+
+<header>
+
+<h1><font face = "Cambria">BEST DEALS</font></h1>
+<h2>The Best Online Retail Store You Can Get</h2>
+</header>
+<body>
+	<nav>
+		<ul>
+  <li><a href="Home.html" class="home"><font face = "Cambria">HOME</font></a></li>
+  <li><a href="Phone.html" class="phone"><font face = "Cambria">SMART PHONES</font></a></li>
+  <li><a href="Tablet.html" class="tablet"><font face = "Cambria">TABLETS</font></a></li>
+  <li> <a href="Laptop.html" class="laptop"><font face = "Cambria" >LAPTOPS</font></a></li>
+  <li> <a href="Tv.html" class="tv"><font face = "Cambria" >TV</font></a></li>
+  </ul>
+		<a href="Index.html">SIGN OUT</a> <a href="ViewOrderServlet">CART</a> <a href="GetOrders">VIEW ORDERS</a>
+	</nav>
+	<div id="container">
+
+<aside class="vnav">
+<ul> 
+  <li>
+  <h3>Categories</h3>
+  <h4>Smart Phones</h4>
+                    <ul>
+                        <li class="start"><a href="iphonemob.html">IPhone 7</a></li>
+						<li><a href="samsungmob.html">Samsung S7 Edge</a></li>
+						<li><a href="nexusmob.html">Nexus 7</a></li>
+						<li class="end"><a href="oneplusmob.html">One plus 2</a></li>
+                    </ul>
+              
+  
+  <li>
+  <h4>Tablets</h4>
+                      <ul>
+                        <li class="start"><a href="ipadtab.html">IPad air 2</a></li>
+						<li><a href="samsungtab.html">Samsung Galaxy Tab 4</a></li>
+						<li><a href="nexustab.html">Nexus Tab 9</a></li>
+						<li class="end"><a href="lenovotab.html">Lenovo Tab 2</a></li>
+                    </ul>
+              
+  </li>
+  
+  <li>
+  <h4>Laptops</h4>
+                      <ul>
+                        <li class="start"><a href="iphonelap.html">Apple MacBook Pro</a></li>
+						<li><a href="samsunglap.html">Samsung Chromebook 3</a></li>
+						<li><a href="delllap.html">Dell Inspiron i7</a></li>
+						<li class="end"><a href="asuslap.html">Asus ZenBook</a></li>
+                    </ul>
+                
+  
+  </li>
+  
+  <li>
+  <h4>TVs</h4>
+                      <ul>
+                        <li class="start"><a href="lgtv.html">LG 4K Ultra HD Smart LED TV</a></li>
+						<li><a href="samsungtv.html">Samsung Curved 4K Ultra HD Smart LED TV</a></li>
+						<li><a href="tcltv.html">TCL 4K Ultra HD Roku Smart LED TV</a></li>
+						<li class="end"><a href="sonytv.html">Sony 4K Ultra HD Smart LED TV</a></li>
+                    </ul>
+                
+  
+  </li>
+  
+  
+  <li>
+  <h3>Accessories</h3>
+  <ul>
+  <li><a href="speaker.html">Home Speaker</a></li> 
+  <li><a href="charger.html">Tablet Charger</a></li> 
+  <li><a href="bluray.html">Blu-ray Player</a></li> 
+  </ul>
+  </li>
+  
+  <li>
+   <h3>Trending</h3>
+  <ul>
+  <li><a href="OrderAnalysis1">Trending</a></li> 
+   </ul>
+  </li>
+  
+</ul>   
+</aside>
+
+		<section class="wrev">
+			<form action="WriteReviewServlet" method="post">
+				<table align="center">
+					<tr>
+						<td><label>Product Name</label></td>
+						<td>:</td>
+						<td><input type="text" required="required" name="pmodel"></td>
+					</tr>
+					<tr>
+						<td><label>Product Category</label></td>
+						<td>:</td>
+						<td><select name="pcategory">
+								<option value="Phone">Smart Phones</option>
+								<option value="Tablet">Tablets</option>
+								<option value="Laptop">Laptops</option>
+								<option value="Tv">Tvs</option>
+								<option value="Accessories">Accessories</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td><label>Product Price</label></td>
+						<td>:</td>
+						<td><input type="text" name="pprice" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Retailer Name</label></td>
+						<td>:</td>
+						<td><input type="text" name="retailer" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Retailer Zip</label></td>
+						<td>:</td>
+						<td><input type="text" name="rzip" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Retailer City</label></td>
+						<td>:</td>
+						<td><input type="text" name="rcity" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Retailer State</label></td>
+						<td>:</td>
+						<td><input type="text" name="rstate" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Product On Sale</label></td>
+						<td>:</td>
+						<td><input type="radio" name="pos" value="Yes">Yes <input
+							type="radio" name="pos" value="No">No</td>
+					</tr>
+					<tr>
+						<td><label>Manufacturer Name</label></td>
+						<td>:</td>
+						<td><select name="mname">
+								<option value="Apple">Apple</option>
+								<option value="Sony">Sony</option>
+								<option value="Samsung">Samsung</option>
+								<option value="Nexus">Nexus</option>
+								<option value="LG">LG</option>
+								<option value="Dell">Dell</option>
+								<option value="Lenovo">Lenovo</option>
+								<option value="Asus">Asus</option>
+								<option value="TCL">TCL</option>
+								<option value="Philips">Philips</option>
+								<option value="Panosonic">Panosonic</option>
+								
+						</select></td>
+					</tr>
+					<tr>
+						<td><label>Manufacturer Rebate</label></td>
+						<td>:</td>
+						<td><input type="radio" name="mrebate" value="Yes">Yes
+							<input type="radio" name="mrebate" value="No">No</td>
+					</tr>
+					<tr>
+						<td><label>User Id</label></td>
+						<td>:</td>
+						<td><input type="text" name="userid" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Age</label></td>
+						<td>:</td>
+						<td><input type="text" name="uage" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Gender</label></td>
+						<td>:</td>
+						<td><input type="radio" name="gender" value="Male">Male
+							<input type="radio" name="gender" value="Female">Female</td>
+					</tr>
+					<tr>
+						<td><label>Occupation</label></td>
+						<td>:</td>
+						<td><input type="text" name="occu" required="required"></td>
+					</tr>
+					<tr>
+						<td><label>Rating</label></td>
+						<td>:</td>
+						<td><input type="radio" name="rating" value="1">1 <input
+							type="radio" name="rating" value="2">2 <input
+							type="radio" name="rating" value="3">3 <input
+							type="radio" name="rating" value="4">4 <input
+							type="radio" name="rating" value="5">5</td>
+					</tr>
+					<tr>
+						<td><label>Date</label></td>
+						<td>:</td>
+						<td><input type="date" placeholder="mm/dd/yyyy" name="rdate" required="required">
+						</td>
+					</tr>
+					<tr>
+						<td><label>Review Text</label></td>
+						<td>:</td>
+						<td><textarea rows="5" cols="50" name="reviewt" required="required"></textarea></td>
+					</tr>
+				</table>
+				<br>
+				<br>
+				<td><input type="submit" value="Submit Review"></td>
+			</form>
+		</section>
+
+
+		<div class="clear"></div>
+	</div>
+	<footer> Copyright © www.bestdeals.co.in </footer>
+</body>
+</html>
